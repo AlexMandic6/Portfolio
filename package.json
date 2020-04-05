@@ -1,0 +1,15 @@
+{
+  "name": "modern_portfolio",
+  "version": "1.0.0",
+  "description": "responsive portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css --recursive"
+  },
+  "author": "Aleksandar Mandic",
+  "license": "MIT",
+  "dependencies": {
+    "no": "0.0.1",
+    "node-sass": "^4.13.1"
+  }
+}
