@@ -277,6 +277,8 @@ main {
     grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (max-width: 500px) {
+  body {
+    height: 100vmax; }
   main#home {
     padding: 4rem 2rem 40px; }
   main#home h1 {
@@ -284,11 +286,14 @@ main {
     margin-top: 10vh;
     padding-bottom: 2rem;
     padding-top: 1rem; }
+  main#Contact {
+    padding: 4rem 1rem; }
   main#Contact h1 {
     font-size: 4rem; }
   .boxes div {
     width: 100%;
-    word-wrap: break-word; }
+    word-wrap: break-word;
+    padding: 1.5rem 0.5rem; }
   .icons {
     padding-top: 4rem; }
   .projects {
