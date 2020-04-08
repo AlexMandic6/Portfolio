@@ -280,7 +280,7 @@ main {
   body {
     height: 100vmax; }
   main#home {
-    padding: 4rem 2rem 40px; }
+    padding: 4rem 2rem 0px; }
   main#home h1 {
     font-size: 3rem;
     margin-top: 10vh;
