@@ -31,3 +31,26 @@ function toggleMenu() {
         showMenu = false;
     }
 }
+
+
+// Modals with images
+const projectImg = document.querySelectorAll('.projects__img');
+
+// Add event listener for every image
+projectImg.forEach(project => project.addEventListener('click', showModal))
+
+// Add event listener for clicks outside modal
+window.addEventListener('click', clickOutside);
+
+// func to show modal based on which image is clicked
+function showModal(e) {
+    e.target.classList.add('modal');
+}
+
+// func to close modal if clicked outside of modal
+function clickOutside(e) {
+        if(!e.target.closest('.projects__img')) {
+            projectImg.forEach(image => image.classList.remove('modal'));
+            
+    }  
+}
