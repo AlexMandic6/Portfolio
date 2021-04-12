@@ -171,7 +171,7 @@ main {
         @include easeOut;
 
         &:hover {
-            padding: 1rem 2rem;
+            transform: scale(.97);
             background: $secondary-color;
             color: set-text-color($secondary-color);
 
